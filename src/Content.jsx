@@ -101,7 +101,7 @@ function Content(props){
        
         
         icon={<ShareAltOutlined />} size="large" />
-        <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} centered onCancel={handleCancel}  footer={[
+        <Modal title="Share Via Twitter" open={isModalOpen} onOk={handleOk} centered onCancel={handleCancel}  footer={[
           <Button key="back" onClick={handleCancel}>
             Cancel
           </Button>,
